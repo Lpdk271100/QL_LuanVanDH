@@ -1,0 +1,8 @@
+1. Open cmd then login with sysdba account in "SQLPLUS / AS SYSDBA".
+2. Shutdown Oracle with the "SHUTDOWN IMMEDIATE" command.
+3. Open restrict Oracle with the "STARTUP RESTRICT" command.
+4. Next change oracle database character to UTF8 with following 2 commands.
+   -"ALTER DATABASE CHARACTER SET INTERNAL_USE AL32UTF8;"
+   -"ALTER DATABASE CHARACTER SET AL32UTF8;"
+5. Next shutdown Oracle again with the "SHUTDOWN IMMEDIATE" command.
+6. Finaly, start oracle with "STARTUP"
